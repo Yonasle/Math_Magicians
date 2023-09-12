@@ -36,7 +36,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [To DO List] <a name="about-project"></a>
+# 📖 [math magicians] <a name="about-project"></a>
 
 **[Math Magicians ]** is a project build using react framework of JavaScript. That it helps to calculate and help to get information about Maths.
 
@@ -47,18 +47,18 @@
 
 
 <details>
-  <summary>HTML</summary>
+<summary>HTML</summary>
 </details>
 
 <details>
-  <summary>CSS</summary>
+<summary>CSS</summary>
 </details>
 
 <details>
 <summary>JS</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
+<ul>
+<li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+</ul>
 </details>
 
 <!-- Features -->
