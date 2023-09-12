@@ -46,7 +46,8 @@ button {
 
 .operator {
   background-color: #ff8d00;
-  color: #fff;
+  color: #000;
+  font-size: 12px;
 }
 
 .zero {

@@ -1,18 +1,20 @@
 import React from 'react';
 import './Calculator.css';
+import Display from './Display'; // Import the Display component
+import Button from './Button'; // Import the Button component
 
 function Calculator() {
   return (
     <div className="calculator">
-      <div className="display">
-        <input type="text" value="0" readOnly />
-      </div>
+      <Display />
+      {' '}
+      {/* Render the Display component */}
       <div className="buttons">
         <div className="row">
-          <button type="button" className="number">AC</button>
-          <button type="button" className="number">+/-</button>
-          <button type="button" className="number">%</button>
-          <button type="button" className="operator">÷</button>
+          <Button type="number" label="AC" />
+          <Button type="number" label="+/-" />
+          <Button type="number" label="%" />
+          <Button type="operator" label="÷" />
         </div>
         <div className="row">
           <button type="button" className="number">7</button>
@@ -37,6 +39,7 @@ function Calculator() {
           <button type="button" className="number">.</button>
           <button type="button" className="operator">=</button>
         </div>
+        {/* Add more rows of buttons using the Button component */}
       </div>
     </div>
   );
