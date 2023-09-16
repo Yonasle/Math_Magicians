@@ -1,0 +1,44 @@
+/* App.css */
+
+.app-container {
+  display: flex;
+  flex-direction: row-reverse; /* Arrange sections horizontally */
+  align-items: flex-start; /* Align items vertically at the start */
+}
+
+.sections-container {
+  display: flex;
+  flex-direction: column;
+  padding-right: 20%;
+  padding-top: 10%;
+}
+
+.app-container ul {
+  list-style: none;
+  display: flex; /* Display the list items in a row */
+  gap: 16px; /* Add some spacing between list items */
+  padding: 0; /* Remove default padding */
+  margin-left: -20%;
+}
+
+.app-container li a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 5%;
+}
+
+
+
+.site-title {
+  position: fixed;
+  top: 5px;
+  left: 20px;
+  font-size: 40px;
+}

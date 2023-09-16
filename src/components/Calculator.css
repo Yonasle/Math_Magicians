@@ -82,4 +82,10 @@ button[value="."] {
   grid-column: span 1;
 }
 
+.sub-header {
+  font-size: 28px; /* Adjust the font size as needed */
+  color: #333;
+  margin-left: -300%;
+}
+
 /* Add any additional styling as needed */
