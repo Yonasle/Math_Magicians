@@ -1,11 +1,20 @@
-import React from 'react';
+// Display.js
 
-function Display() {
+import React from 'react';
+import PropTypes from 'prop-types'; // Import PropTypes
+
+export default function Display({ displayValue }) {
   return (
-    <div className="display">
-      <input type="text" value="0" readOnly />
-    </div>
+    <input
+      type="text"
+      value={displayValue}
+      readOnly
+      className="calculator-display"
+    />
   );
 }
 
-export default Display;
+// Add prop type validation
+Display.propTypes = {
+  displayValue: PropTypes.string.isRequired, // Make sure displayValue is a string and is required
+};

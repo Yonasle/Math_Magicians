@@ -1,18 +1,13 @@
 import React from 'react';
-import PropTypes from 'prop-types'; // Import prop-types
+import PropTypes from 'prop-types';
 
-function Button({ type, label }) {
+export default function Button({ value, onClick }) {
   return (
-    <button type="button" className={type}>
-      {label}
-    </button>
+    <input type="button" value={value} onClick={() => onClick(value)} />
   );
 }
 
-// Define prop types for Button component
 Button.propTypes = {
-  type: PropTypes.string.isRequired,
-  label: PropTypes.string.isRequired,
+  value: PropTypes.string.isRequired,
+  onClick: PropTypes.func.isRequired,
 };
-
-export default Button;
