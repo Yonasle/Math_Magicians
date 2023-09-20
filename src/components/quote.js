@@ -39,14 +39,13 @@ function Quote() {
     fetchQuote();
   }, [category, apiKey]);
   const quoteStyle = {
-    fontSize: '24px', // Adjust the font size as needed
-    // Add more styles as desired
+    fontSize: '24px',
   };
 
   return (
     <div className="quote-container">
       <Header />
-      {loading && <div>Loading...</div>}
+      {loading && <div className="loading-message">Loading...</div>}
       {error && <div className="error">{error}</div>}
       {quote && <div className="quote" style={quoteStyle}>{quote}</div>}
     </div>

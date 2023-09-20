@@ -88,4 +88,19 @@ button[value="."] {
   margin-left: -300%;
 }
 
-/* Add any additional styling as needed */
+/* Add this CSS to your stylesheet or CSS-in-JS styles */
+.loading-message {
+  font-size: 35px; /* Adjust the font size as needed */
+  color: #b14e4e;
+}
+
+.quote {
+  font-size: 36px;
+  margin-top: 20%;
+  margin-left: 20%;
+  width: 100%;
+
+  /* Adjust the font size as needed */
+
+  /* Add any other desired styles for the quote */
+}
