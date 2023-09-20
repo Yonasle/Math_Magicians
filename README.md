@@ -6,7 +6,7 @@
   
   <br/>
 
-  <h3><b>React Setup for Math Magician</b></h3
+  <h3><b>Math Matician full page</b></h3
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -60,6 +60,9 @@
 </ul>
 </details>
 
+<details>
+<summary>React Framework</summary>
+</details>
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
@@ -68,6 +71,7 @@
 
 - [ ] **[Calculate Number]**
 - [ ] **[Give Information about Math]**
+- [] **[Fetch api and display]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
